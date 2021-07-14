@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+table{
+	width: 500px;
+	margin: 20px auto;
+	background-color: #4a4a4a;
+	padding: 40px;
+	color: #ffffff; 
+
+}
+
+input[type="text"], input[type="password"] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 15px;
+	box-sizing: border-box;
+	
+
+}
+
+input[type="submit"] {
+	width: 150px;
+	height: 40px;
+	border-radius: 15px; 
+	text-align: center;
+	background-color: #2bd3c6;
+	border:none;
+	cursor: pointer;
+}

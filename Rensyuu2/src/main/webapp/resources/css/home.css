@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+body{
+	background-color:#4a4a4a;
+}
+
+a { 
+	text-decoration:none;
+	color: white;
+} 
+
+
+
+h2{
+	color: white;
+}
+
+h1{
+	color: white;
+	text-align: center;
+}
+
+span{
+	color: white;
+}
+.bar{
+	text-align: right;
+	float:right;
+	display: flex;
+}
+input[type="button"]{
+ 	text-align: center;
+	background-color:#2bd3c6;
+	font-size: 14px;
+	height: 31px;
+    border:none;
+    margin-left:-8px;
+} 
+input[type="text"]{
+	font-size: 14px;
+	outline:none;
+	width: 120px;
+	height: 32px;
+
+}
+
+#query{
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
+#search {
+	width: 50px;
+	height: 30px;
+	text-align: center;
+	background-color:#2bd3c6;
+	color: black;
+}
+
+#searchDiv{
+	text-align: center;
+	padding-top: 10px
+}
+
+
+

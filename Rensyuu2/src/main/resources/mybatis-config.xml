@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<typeAlias type="com.swdo.test.vo.UserVO" alias ="user"/>
+	 	<typeAlias type="com.swdo.test.vo.BoardVO" alias="board" />
+	 	<typeAlias type="com.swdo.test.vo.LikeVO" alias="like" />
+	 	<typeAlias type="com.swdo.test.vo.RequestVO" alias="request" />
+ 	</typeAliases>
+ 
+ 	<mappers>
+ 		<mapper resource="mapper/userMapper.xml"/>
+ 		<mapper resource="mapper/boardMapper.xml"/>
+ 		<mapper resource="mapper/likeMapper.xml"/>
+ 		<mapper resource="mapper/requestMapper.xml"/>
+ 	</mappers>
+</configuration>
